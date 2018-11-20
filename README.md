@@ -1,2 +1,2 @@
-# Ingress
-OpenGLé¡¹ç›®ï¼Œå¤åˆ»Ingressæ¸¸æˆ
+# OpenGL Project
+¸´¿ÌÁËIngressÓÎÏ·
