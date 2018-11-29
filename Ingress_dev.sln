@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Solar", "Solar.vcxproj", "{173E470F-D582-4D8C-B1DD-50397D198433}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ingress_dev", "Solar.vcxproj", "{173E470F-D582-4D8C-B1DD-50397D198433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +13,8 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{173E470F-D582-4D8C-B1DD-50397D198433}.Debug|x64.ActiveCfg = Debug|x64
-		{173E470F-D582-4D8C-B1DD-50397D198433}.Debug|x64.Build.0 = Debug|x64
+		{173E470F-D582-4D8C-B1DD-50397D198433}.Debug|x64.ActiveCfg = Debug|Win32
+		{173E470F-D582-4D8C-B1DD-50397D198433}.Debug|x64.Build.0 = Debug|Win32
 		{173E470F-D582-4D8C-B1DD-50397D198433}.Debug|x86.ActiveCfg = Debug|Win32
 		{173E470F-D582-4D8C-B1DD-50397D198433}.Debug|x86.Build.0 = Debug|Win32
 		{173E470F-D582-4D8C-B1DD-50397D198433}.Release|x64.ActiveCfg = Release|x64

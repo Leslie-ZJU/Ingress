@@ -23,7 +23,7 @@
     <ProjectGuid>{173E470F-D582-4D8C-B1DD-50397D198433}</ProjectGuid>
     <RootNamespace>Solar</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>Solar</ProjectName>
+    <ProjectName>ingress_dev</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -133,11 +133,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
-    <ClInclude Include="shader_m.h" />
+    <ClInclude Include="mesh.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="shader.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fragment_shader.fs" />
     <None Include="lib\assimp-vc140-mt.dll" />
+    <None Include="light_caster.fs" />
+    <None Include="light_caster.vs" />
     <None Include="vertex_shader.vs" />
   </ItemGroup>
   <ItemGroup>
